@@ -134,3 +134,6 @@ fun main() {
     val mylist = allQuery.list()
     println(mylist[0].toString())*/
 }
+
+
+fun convertToStringList(list: List<Any>): List<String> = list.map {if (it is String) it as String else "N/A"}

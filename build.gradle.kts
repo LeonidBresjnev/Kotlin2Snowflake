@@ -25,13 +25,13 @@ dependencies {
     testImplementation(kotlin("test"))
     implementation("net.java.dev.jna:jna:5.12.1")
     implementation("net.java.dev.jna:jna-platform:5.12.1")
-    implementation("net.snowflake:snowflake-jdbc:3.13.26")
+    implementation("net.snowflake:snowflake-jdbc:3.13.30")
 
 
     implementation("org.hibernate:hibernate-core:5.6.5.Final")
     testImplementation("org.hibernate:hibernate-testing:5.6.5.Final")
 
-    implementation("org.xerial:sqlite-jdbc:3.41.0.0")
+    implementation("org.xerial:sqlite-jdbc:3.42.0.0")
     implementation("com.github.gwenn:sqlite-dialect:0.1.2")
     implementation("org.flywaydb:flyway-core:8.4.3")
   //  implementation("com.github.gwenn:sqlite-dialect:1.1")
